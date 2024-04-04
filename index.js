@@ -36,6 +36,7 @@ for (let index = 0; index < 7; index++) {
     let shmaMga = zmanim.sofZmanShmaMGA()
     let tfilla = zmanim.sofZmanTfilla()
     let tfillaMga = zmanim.sofZmanTfillaMGA()
+    let mariv = zmanim.sunsetOffset(72)
 
 
 
@@ -46,6 +47,7 @@ for (let index = 0; index < 7; index++) {
         תזס: tfilla.getHours() + ':' + tfilla.getMinutes() + ':' + tfilla.getSeconds(),
         ארג_תזס: tfillaMga.getHours() + ':' + tfillaMga.getMinutes() + ':' + tfillaMga.getSeconds() ,
         תוצח: chatzus.getHours() + ':' + chatzus.getMinutes() + ':' + chatzus.getSeconds(),
+        תר_בירעמ: mariv.getHours() + ':' + mariv.getMinutes() + ':' + mariv.getSeconds(),
 
     }
 
